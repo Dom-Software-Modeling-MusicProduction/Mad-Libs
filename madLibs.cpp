@@ -70,7 +70,7 @@ string getHint(string tag){
 //Populate hints array with the correct hints
 //return the number of hints
 int fillHints(string story){
-    //TODO: Complete this function!
+   
     int count = 0;
     size_t pos = 0;
     while (true){
