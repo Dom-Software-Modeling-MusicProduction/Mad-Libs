@@ -8,8 +8,20 @@ Through the development of this program, various techniques were incorporated, i
 # How It Works
 The program begins by asking for a random story number. Not knowing the story, the user is expected to give words that match the type of word that the program is asking for. This happens multiple times for each instance of user input in the selected story. Once all the user-selected words have been entered, the program outputs the story with the user's inputted words. 
 
+
 # Execution
-To run the program, clone the repository to your computer. Then, since the file is a C++ file, run the main program file using g++. 
+
+To run the following program, clone the repository to your computer and then compile it. This project was written in C++ and was tested on Windows using MSYS2 (MinGW64).
+
+### Requirements
+- g++ (C++17)
+
+### Compile
+g++ madLibs.cpp -o program
+
+### Run
+./program
+
 
 # Purpose
 This project was created as a beginner-friendly exercise to help users become comfortable with handling user input/output, variables, string formatting, and manipulation in C++.
